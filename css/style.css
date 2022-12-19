@@ -18,115 +18,141 @@ body {
     padding: 135px 0px 285px 135px;
 
 }
-.color-choice:nth-child(1) {
-    background-color: #3399ff;
-    transition: all .2s ease-in-out;
-}
-.color-choice:nth-child(1):hover {
-    transform: scale(1.1);
-}
 .color-choice:nth-child(2) {
-    background-color: #8cd98c;
+    background-color: #ff66a3;
     transition: all .2s ease-in-out;
 }
-.color-choice:nth-child():hover {
+.color-choice:nth-child(2):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(3) {
-    background-color: #ffff66;
+    background-color: #ff4d4d;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(3):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(4) {
-    background-color: #ff471a;
+    background-color: #ff661a;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(4):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(5) {
-    background-color: #ff661a;
+    background-color: #ffff4d;
+    /* #ffd700 */
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(5):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(6) {
-    background-color: #ff66a3;
+    background-color: #ffd700;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(6):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(7) {
-    background-color: #cc33ff;
+    background-color: #4dff4d;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(7):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(8) {
-    background-color: #000000;
+    background-color: #00FFFF;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(8):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(9) {
-    background-color: #0033cc;
+    background-color: #66b3ff;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(9):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(10) {
-    background-color: #33ffff;
+    background-color: #ee82ee;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(10):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(11) {
-    background-color: #00e600;
+    background-color: #800080;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(11):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(12) {
-    background-color: #f2f2f2;
+    background-color: #000000;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(12):hover {
     transform: scale(1.1);
 }
-#display-light-blue {
+.color-choice:nth-child(1) {
+    background-color: #fbfbfb;
+    transition: all .2s ease-in-out;
+}
+.color-choice:nth-child(1):hover {
+    transform: scale(1.1);
+}
+#display-white{
     /* animation: appear ease 3s; */
-    background-color: #3399ff;
-    height: 100vh;
-}
-#display-green {
-    /* animation: appear ease 3s; */
-    background-color: #8cd98c;
-    height: 100vh;
-}
-#display-light-yellow {
-    /* animation: appear ease 3s; */
-    background-color: #ffff66;
-    height: 100vh;
-}
-#display-dark-red {
-    background-color: #ff471a;
-    height: 100vh;
-}
-#display-dark-orange {
-    background-color: #ff471a;
+    background-color: #fbfbfb;
     height: 100vh;
 }
 #display-pink {
+    /* #display-pink  */
+    /* animation: appear ease 3s; */
     background-color: #ff66a3;
+    height: 100vh;
+}
+#display-red {
+    /* animation: appear ease 3s; */
+    background-color: #ff4d4d;
+    height: 100vh;
+}
+#display-orange {
+    background-color: #ff661a;
+    height: 100vh;
+}
+#display-yellow {
+    background-color: #ffff4d;
+    height: 100vh;
+}
+#display-gold {
+    background-color: #ffd700;
+    height: 100vh;
+}
+#display-green {
+    background-color: #4dff4d;
+    height: 100vh;
+}
+#display-aqua {
+    background-color: #00FFFF;
+    height: 100vh;
+}
+#display-blue {
+    background-color: #66b3ff;
+    height: 100vh;
+}
+#display-violet {
+    background-color: #ee82ee;
+    height: 100vh;
+}
+#display-purple {
+    background-color: #800080;
+    height: 100vh;
+}
+#display-black {
+    background-color: #000000;
     height: 100vh;
 }
 #selected-color-title {
