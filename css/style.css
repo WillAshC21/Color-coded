@@ -1,4 +1,10 @@
-#color-title {
+body {
+    margin: 0px;
+    height: 100%;
+}
+#color-title, 
+#selected-color-title, 
+#selected-color-subtitle {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -55,44 +61,103 @@
     transform: scale(1.1);
 }
 .color-choice:nth-child(7) {
-    background-color: grey;
+    background-color: #cc33ff;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(7):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(8) {
-    background-color: black;
+    background-color: #000000;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(8):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(9) {
-    background-color: blue;
+    background-color: #0033cc;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(9):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(10) {
-    background-color: lightcoral;
+    background-color: #33ffff;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(10):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(11) {
-    background-color: orange;
+    background-color: #00e600;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(11):hover {
     transform: scale(1.1);
 }
 .color-choice:nth-child(12) {
-    background-color: yellow;
+    background-color: #f2f2f2;
     transition: all .2s ease-in-out;
 }
 .color-choice:nth-child(12):hover {
     transform: scale(1.1);
+}
+#display-light-blue {
+    /* animation: appear ease 3s; */
+    background-color: #3399ff;
+    height: 100vh;
+}
+#display-green {
+    /* animation: appear ease 3s; */
+    background-color: #8cd98c;
+    height: 100vh;
+}
+#display-light-yellow {
+    /* animation: appear ease 3s; */
+    background-color: #ffff66;
+    height: 100vh;
+}
+#display-dark-red {
+    background-color: #ff471a;
+    height: 100vh;
+}
+#display-dark-orange {
+    background-color: #ff471a;
+    height: 100vh;
+}
+#display-pink {
+    background-color: #ff66a3;
+    height: 100vh;
+}
+#selected-color-title {
+    font-weight: bolder;
+    font-size: 150px;
+    color: #ffffff;
+    margin: auto;
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: appear ease 3s;
+}
+#selected-color-subtitle {
+    font-weight: bolder;
+    font-size: 50px;
+    color: #ffffff;
+    margin: auto;
+    width: 50%;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: appear ease 10s;
+}
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
